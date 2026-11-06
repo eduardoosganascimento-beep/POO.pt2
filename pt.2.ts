@@ -1,4 +1,4 @@
-1. Herança
+ // 1. Herança
 
 class Pessoa {
   constructor(public nome: string) {}
@@ -24,7 +24,7 @@ console.log(`Professor: ${professor.nome}, Disciplina: ${professor.disciplina}`)
 
 
 
-2. Encapsulamento
+// 2. Encapsulamento
 
 class ContaBancaria {
   private saldo: number;
@@ -63,7 +63,7 @@ console.log(`Saldo atual: R$ ${conta.consultarSaldo().toFixed(2)}`);
 
 
 
-3. Polimorfismo
+//  3. Polimorfismo
 
 class Animal {
   public emitirSom(): string {
@@ -91,7 +91,7 @@ animais.forEach((animal) => {
 
 
 
-4. Abstração
+//  4. Abstração
 
 abstract class Forma {
   abstract calcularArea(): number;
@@ -125,7 +125,7 @@ console.log(`Área do Círculo: ${circulo.calcularArea().toFixed(2)}`);
 
 
 
-5. Projeto Integrando os 4 Pilares em TypeScript
+//  5. Projeto Integrando os 4 Pilares em TypeScript
 
 abstract class Pessoa {
   constructor(
